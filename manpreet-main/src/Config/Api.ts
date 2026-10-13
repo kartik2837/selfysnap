@@ -51,7 +51,9 @@
 
 import axios from "axios";
 
-export const DEPLOYED_URL = "http://localhost:8080";
+// export const DEPLOYED_URL = "http://localhost:8080";
+export const DEPLOYED_URL = "https://selfysnap-8zi6.onrender.com";
+
 
 export const api = axios.create({
   baseURL: DEPLOYED_URL,
