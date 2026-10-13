@@ -549,7 +549,7 @@ class SellerController {
 
       /* ─── Build verification link ─── */
       const FRONTEND_URL =
-        process.env.FRONTEND_URL || "http://localhost:5173";
+        process.env.FRONTEND_URL || "https://selfysnap-theta.vercel.app";
       const frontendUrl = `${FRONTEND_URL}/verify-seller/${otp}`;
 
       console.log("════════════════════════════════════════");
