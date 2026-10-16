@@ -3042,12 +3042,12 @@ const Landing: React.FC = () => {
                   </div>
                   <div>
                     <p className="text-sm text-gray-400">Phone</p>
-                    <a
+                    {/* <a
                       href="tel:+919992088843"
                       className="text-white text-sm hover:text-orange-500"
                     >
                       +91 99920 88843
-                    </a>
+                    </a> */}
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
@@ -3071,7 +3071,7 @@ const Landing: React.FC = () => {
           <div className="border-t border-gray-800 py-8 flex flex-col md:flex-row items-center justify-between gap-6">
             <div>
               <p className="text-white font-bold text-lg mb-1">
-                📱 Download Our App
+             selfysnap App comming soon
               </p>
               <p className="text-gray-400 text-sm">
                 Shop on the go - Available on all platforms
@@ -3118,10 +3118,7 @@ const Landing: React.FC = () => {
               <span className="text-white font-semibold">Selfysnap</span>. All
               rights reserved.
             </p>
-            <p className="flex items-center gap-2">
-              Made with <span className="text-red-500 animate-pulse">❤️</span>{" "}
-              in India
-            </p>
+           
           </div>
         </div>
       </footer>
