@@ -168,7 +168,7 @@ import InputAdornment from '@mui/material/InputAdornment';
 import LockClockIcon from '@mui/icons-material/LockClock';
 import SupportAgentIcon from '@mui/icons-material/SupportAgent';
 
-const SUPPORT_PHONE = '+91 99922 88843';
+
 
 const LoginForm = () => {
   const navigate = useNavigate();
@@ -384,13 +384,13 @@ const LoginForm = () => {
         {/* SUPPORT */}
         <div className="flex items-center justify-center gap-2 pt-3 border-t border-gray-100 text-xs text-gray-500">
           <SupportAgentIcon sx={{ fontSize: 14 }} />
-          <span>Need help?</span>
+          {/* <span>Need help?</span>
           <a
             href={`tel:${SUPPORT_PHONE.replace(/\s/g, '')}`}
             className="font-bold text-orange-600 hover:underline"
           >
             {SUPPORT_PHONE}
-          </a>
+          </a> */}
         </div>
       </form>
     </div>
